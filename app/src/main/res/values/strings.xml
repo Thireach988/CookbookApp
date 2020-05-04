@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">CookbookApp</string>
+    <string name="greeting_text">Welcome to Cookbook</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Log out</string>
+    <string name="passwordRequest">Request new password</string>
+    <string name="accountName">Sok Sabay</string>
+    <string name="accountEmail">soksabay@gmail.com</string>
+    <string name="dashboard1">Your account</string>
+    <string name="dashboard2">Featured Posts</string>
+    <string name="dashboard3">Your saved posts</string>
+    <string name="dashboard4">Settings</string>
+    <string name="dashboard5">About us</string>
+
 </resources>

@@ -6,13 +6,13 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="300dp"
-    android:background="#ffde69">
+    android:background="@color/lightYellow">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log Out"
+        android:text="@string/logout"
         android:layout_alignParentRight="true"
-        android:textColor="#000"/>
+        android:textColor="@color/blackInYellow"/>
     <ImageView
         android:layout_width="80dp"
         android:id="@+id/img_profile"
@@ -24,16 +24,16 @@
         android:id="@+id/text_name"
         android:layout_below="@id/img_profile"
         android:layout_centerHorizontal="true"
-        android:text="Sok Sabay"
-        android:textColor="#000"
+        android:text="@string/accountName"
+        android:textColor="@color/blackInYellow"
         android:layout_height="wrap_content" />
     <TextView
-    android:layout_width="wrap_content"
-    android:layout_below="@id/text_name"
-    android:layout_centerHorizontal="true"
-    android:text="Soksabay@gmail.com"
-    android:textColor="#000"
-    android:layout_height="wrap_content" />
+        android:layout_width="wrap_content"
+        android:layout_below="@id/text_name"
+        android:layout_centerHorizontal="true"
+        android:text="@string/accountEmail"
+        android:textColor="@color/blackInYellow"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
 <LinearLayout
@@ -44,32 +44,32 @@
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
-        android:textColor="#000"
-        android:text="Your Account" />
+        android:textColor="@color/black"
+        android:text="@string/dashboard1" />
     <TextView
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
 
-        android:textColor="#000"
-        android:text="Featured Posts" />
+        android:textColor="@color/black"
+        android:text="@string/dashboard2" />
     <TextView
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
-        android:textColor="#000"
-        android:text="Your Saved Posts" />
+        android:textColor="@color/black"
+        android:text="@string/dashboard3" />
     <TextView
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
-        android:textColor="#000"
-        android:text="Settings" />
+        android:textColor="@color/black"
+        android:text="@string/dashboard4" />
 <TextView
     android:layout_width="match_parent"
     android:layout_margin="16dp"
     android:layout_height="wrap_content"
-    android:textColor="#000"
-    android:text="About us" />
+    android:textColor="@color/black"
+    android:text="@string/dashboard5" />
 </LinearLayout>
 </LinearLayout>

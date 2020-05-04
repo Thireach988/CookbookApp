@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#ffde69"
+        android:background="@color/lightYellow"
         android:gravity="center"
         android:orientation="vertical">
         <ImageView
@@ -21,8 +21,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="10dp"
-            android:text="Login to your Cookbook account"
-            android:textColor="#000"
+            android:text="@string/greeting_text"
+            android:textColor="@color/blackInYellow"
             android:textSize="45px" />
 
     </LinearLayout>
@@ -37,20 +37,21 @@
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
-        android:hint="Username" />
+        android:hint="@string/username" />
     <EditText
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
-        android:hint="Password" />
+        android:hint="@string/password" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:background="#ffde69" />
+        android:textColor="@color/blackInYellow"
+        android:text="@string/login"
+        android:background="@color/lightYellow" />
     <TextView
         android:layout_width="wrap_content"
-        android:text="Request new password"
+        android:text="@string/passwordRequest"
         android:layout_height="wrap_content" />
     </LinearLayout>
 </LinearLayout>

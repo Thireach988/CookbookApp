@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">កម្មវិធីសៀវភៅធ្វើម្ហូប</string>
+    <string name="greeting_text">កម្មវិធីសៀវភៅធ្វើម្ហូបសូមស្វាគមន៍</string>
+    <string name="username">ឈ្មោះគណនី</string>
+    <string name="password">ពាក្យសម្ងាត់</string>
+    <string name="login">ចូលគណនី</string>
+    <string name="logout">ចេញគណនី</string>
+    <string name="passwordRequest">ស្នើសុំលេខសំងាត់ថ្មី</string>
+    <string name="accountName">សុខ សប្បាយ</string>
+    <string name="accountEmail">soksabay@gmail.com</string>
+    <string name="dashboard1">គណនីរបស់អ្នក</string>
+    <string name="dashboard2">រូបមន្តធ្វើម្ហូបពិសេស</string>
+    <string name="dashboard3">រូបមន្តធ្វើម្ហូបដែលបានរក្សាទុក</string>
+    <string name="dashboard4">ការកំណត់</string>
+    <string name="dashboard5">អំពីកម្មវិធីនេះ</string>
+</resources>
