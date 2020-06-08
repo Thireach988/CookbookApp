@@ -15,7 +15,7 @@ public class ImageSlideshow2 extends AppCompatActivity {
         ViewPager2 viewPager2 = findViewById(R.id.view_pager2);
 
         int[] imageIds = new int[]{R.drawable.img_slide_1, R.drawable.img_slide_2, R.drawable.img_slide_3};
-        ImageSlideshow2Adapter adapter = new ImageSlideshow2Adapter(imageIds);
+        ImageSlideshow2Adaptr adapter = new ImageSlideshow2Adapter(imageIds);
 
         viewPager2.setAdapter(adapter);
 
