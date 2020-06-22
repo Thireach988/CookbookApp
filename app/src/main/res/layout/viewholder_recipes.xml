@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="90dp"
     android:padding="8dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img_sender"
+        app:placeholderImage="@drawable/ic_placeholder"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
     <TextView
         android:id="@+id/txt_User"
         android:layout_width="wrap_content"
@@ -23,4 +36,6 @@
         android:layout_height="wrap_content"
         android:text="Description"
         android:textSize="11sp" />
+
+    </LinearLayout>
 </LinearLayout>

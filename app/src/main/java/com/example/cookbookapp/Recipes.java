@@ -3,6 +3,7 @@ package com.example.cookbookapp;
 public class Recipes {
 
         private String user;    //user who post the recipe
+        private String food_picture; //picture of the food
         private String r_name;  //r_name is name of recipe
         private String r_description; //r_description is recipe description
         private long time;
@@ -13,6 +14,14 @@ public class Recipes {
 
         public void setUser(String user) {
             this.user = user;
+        }
+
+        public String getFood_picture() {
+        return food_picture;
+        }
+
+        public void setFood_picture(String food_picture) {
+        this.food_picture = food_picture;
         }
 
         public String getR_name() {
