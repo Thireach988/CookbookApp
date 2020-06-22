@@ -98,7 +98,7 @@ public class RecipesActivity extends AppCompatActivity {
 //        Recipes recipe3 = new Recipes();
 //        recipe3.setUser("Peter");
 //        recipe3.setR_name("Fried eggs");
-//        recipe3.setR_description("Heat up some oil in a skillet. Crack and cook your eggs. Serve it with some bread or sauce. ");
+//        recipe3.setR_description("Heat up some oil in a skillet. Crack and cook your eggs. Serve it with some bread or sauce.");
 //
 //        return new Recipes[] {recipe1,recipe2,recipe3};
 // }
