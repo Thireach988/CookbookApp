@@ -5,10 +5,11 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Activity3 extends AppCompatActivity {
+public class FoodCategoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity3);
+        setContentView(R.layout.activity_food_category);
     }
+
 }

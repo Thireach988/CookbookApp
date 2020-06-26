@@ -43,12 +43,14 @@
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
         android:hint="@string/password" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/blackInYellow"
-        android:text="@string/login"
-        android:background="@color/lightYellow" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/lightYellow"
+            android:onClick="onButtonClick"
+            android:text="@string/login"
+            android:textColor="@color/blackInYellow" />
     <TextView
         android:layout_width="wrap_content"
         android:text="@string/passwordRequest"

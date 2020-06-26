@@ -10,7 +10,8 @@
         android:layout_height="34dp"
         android:layout_weight="1"
         android:text="Khmer Foods"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
 
     <TextView
         android:id="@+id/textView5"

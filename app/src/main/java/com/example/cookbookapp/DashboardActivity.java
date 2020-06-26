@@ -7,14 +7,14 @@ import android.view.View;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Activity2 extends AppCompatActivity {
+public class DashboardActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity2);
+        setContentView(R.layout.activity_dashboard);
     }
-    public void onBClick(View view){
-        Intent intent=new Intent(this, Activity3.class);
+    public void PostsClick(View view){
+        Intent intent=new Intent(this, FoodCategoryActivity.class);
         startActivity(intent);
     }
 }
