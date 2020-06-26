@@ -45,7 +45,7 @@ public class RecipesActivity extends AppCompatActivity {
         // Show loading
         showloading(true);
         // Load data from server using Volley Library
-        String url = "http://10.0.2.2/myandroidapp/recipes.php";
+        String url = "https://10.0.2.2/myandroidapp/recipes.php";
 
         //Create a request
         StringRequest request = new StringRequest(url, new Response.Listener<String>() {
