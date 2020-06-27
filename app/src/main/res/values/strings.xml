@@ -9,10 +9,13 @@
     <string name="accountName">Sok Sabay</string>
     <string name="accountEmail">soksabay@gmail.com</string>
     <string name="dashboard1">Your account</string>
-    <string name="dashboard2">Featured Posts</string>
-    <string name="dashboard3">Your saved posts</string>
+    <string name="dashboard2">Featured Recipes</string>
+    <string name="dashboard3">Saved Recipes</string>
     <string name="dashboard4">Settings</string>
     <string name="dashboard5">About us</string>
-    <string name="featured_recipes">Featured Recipes</string>
+    <string name="sort1">Sort by date</string>
+    <string name="sort2">Sort by ratings</string>
+    <string name="sort3">Sort by categories</string>
+
 
 </resources>

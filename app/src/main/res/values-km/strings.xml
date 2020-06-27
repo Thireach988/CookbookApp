@@ -13,4 +13,7 @@
     <string name="dashboard3">រូបមន្តធ្វើម្ហូបដែលបានរក្សាទុក</string>
     <string name="dashboard4">ការកំណត់</string>
     <string name="dashboard5">អំពីកម្មវិធីនេះ</string>
+    <string name="sort1">Sort by date</string>
+    <string name="sort2">Sort by ratings</string>
+    <string name="sort3">Sort by categories</string>
 </resources>
