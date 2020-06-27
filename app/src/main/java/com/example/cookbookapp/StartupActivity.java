@@ -13,7 +13,7 @@ public class StartupActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startup);
-        new Handler().postDelayed(new Runnable() {
+        new Handler().postDelayed(new Runnabl() {
             @Override
             public void run() {
                 Intent loginIntent = new Intent(StartupActivity.this, RecipesActivity.class);
