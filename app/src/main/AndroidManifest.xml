@@ -12,14 +12,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         >
-        <activity android:name=".RecipesActivity">
+        <activity android:name=".StartupActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".DashboardActivity" />
+        <activity android:name=".RecipesActivity" />
         <activity android:name=".FoodCategoryActivity" />
     </application>
 

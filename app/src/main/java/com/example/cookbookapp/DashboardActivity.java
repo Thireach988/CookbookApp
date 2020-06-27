@@ -14,7 +14,7 @@ public class DashboardActivity extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard);
     }
     public void PostsClick(View view){
-        Intent intent=new Intent(this, FoodCategoryActivity.class);
+        Intent intent=new Intent(this, RecipesActivity.class);
         startActivity(intent);
     }
 }
