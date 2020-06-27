@@ -14,7 +14,7 @@ public class StartupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_startup);
         new Handler().postDelayed(new Runnable() {
-            @Override
+            @Overrid
             public void run() {
                 Intent intent = new Intent(StartupActivity.this, RecipesActivity.class);
                 startActivity(intent);
