@@ -13,5 +13,6 @@
     <string name="dashboard3">Your saved posts</string>
     <string name="dashboard4">Settings</string>
     <string name="dashboard5">About us</string>
+    <string name="featured_recipes">Featured Recipes</string>
 
 </resources>

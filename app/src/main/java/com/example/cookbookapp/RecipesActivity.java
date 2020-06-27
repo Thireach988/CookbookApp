@@ -20,12 +20,13 @@ import com.google.gson.Gson;
 public class RecipesActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     private RecyclerView recyclerView;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recipes);
         // Make a reference to the RecyclerView
-        progressBar=findViewById(R.id.progress_bar);
+        progressBar = findViewById(R.id.progress_bar);
         recyclerView = findViewById(R.id.recycler_view);
 
         // Create and set a layout manager
@@ -62,7 +63,7 @@ public class RecipesActivity extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(RecipesActivity.this,"Something error while loading data from the server", Toast.LENGTH_LONG).show();
+                Toast.makeText(RecipesActivity.this, "Something error while loading data from the server", Toast.LENGTH_LONG).show();
                 Log.d("recipesapp", "Log data error: " + error.getMessage());
                 showloading(false);
             }
@@ -72,18 +73,26 @@ public class RecipesActivity extends AppCompatActivity {
         Volley.newRequestQueue(this).add(request);
 
     }
-        private void showloading(boolean state){
-        if(state){
+
+    private void showloading(boolean state) {
+        if (state) {
             progressBar.setVisibility(View.VISIBLE);
             recyclerView.setVisibility(View.INVISIBLE);
-        }
-        else{
+        } else {
             recyclerView.setVisibility(View.VISIBLE);
             progressBar.setVisibility(View.INVISIBLE);
 
-            }
         }
+    }
 }
+//
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater menuInflater = getMenuInflater();
+//        menuInflater.inflate();
+//        return true;
+//    }
+//}
 //dummy data
 //        Recipes recipe1 = new Recipes();
 //        recipe1.setUser("Sarah");
