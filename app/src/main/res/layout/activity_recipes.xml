@@ -10,6 +10,7 @@
         android:layout_height="60dp"
         app:titleMarginStart="100dp"
         android:background="@color/lightYellow"
+        android:id="@+id/toolbar"
         app:title="@string/dashboard2" />
 
     <FrameLayout

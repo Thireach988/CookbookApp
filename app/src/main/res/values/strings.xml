@@ -13,6 +13,7 @@
     <string name="dashboard3">Saved Recipes</string>
     <string name="dashboard4">Settings</string>
     <string name="dashboard5">About us</string>
+    <string name="AboutCookbook">About Cookbook</string>
     <string name="sort1">Sort by date</string>
     <string name="sort2">Sort by ratings</string>
     <string name="sort3">Sort by categories</string>

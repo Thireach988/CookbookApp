@@ -34,12 +34,10 @@ public class RecipesActivity extends AppCompatActivity {
         //RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, RecyclerView.HORIZONTAL, false);
         //RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(layoutManager);
-
-
         //  create adapter Recipes[] recipe = loadRecipes();
-
-
         loadRecipes();
+
+
     }
 
     private void loadRecipes() {
@@ -84,15 +82,27 @@ public class RecipesActivity extends AppCompatActivity {
 
         }
     }
-}
-//
+
+
 //    @Override
 //    public boolean onCreateOptionsMenu(Menu menu) {
 //        MenuInflater menuInflater = getMenuInflater();
-//        menuInflater.inflate();
+//        menuInflater.inflate(R.menu.activity_main_option, menu);
 //        return true;
 //    }
-//}
+//
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//        if (item.getItemId() == R.id.sort1) {
+//            Toast.makeText(this, R.string.sort1, Toast.LENGTH_LONG).show();
+//        } else if (item.getItemId() == R.id.sort2){
+//            Toast.makeText(this, R.string.sort2, Toast.LENGTH_LONG).show();
+//        }else if (item.getItemId() == R.id.sort3){
+//            Toast.makeText(this, R.string.sort3, Toast.LENGTH_LONG).show();
+//        }
+//       return true;
+//    }
+}
 //dummy data
 //        Recipes recipe1 = new Recipes();
 //        recipe1.setUser("Sarah");

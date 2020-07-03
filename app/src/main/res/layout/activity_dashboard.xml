@@ -67,6 +67,7 @@
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
+        android:onClick="AboutClick"
         android:textColor="@color/black"
         android:text="@string/dashboard5" />
     <TextView
@@ -74,6 +75,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="@string/logout"
+        android:onClick="onLogOutCLick"
         android:textColor="@color/blackInYellow"/>
 </LinearLayout>
 </LinearLayout>

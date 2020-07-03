@@ -17,4 +17,11 @@ public class DashboardActivity extends AppCompatActivity {
         Intent intent=new Intent(this, RecipesActivity.class);
         startActivity(intent);
     }
+    public void AboutClick(View view){
+        Intent intent = new Intent(this,AboutUsActivity.class);
+        startActivity(intent);
+    }
+    public void onLogOutCLick(View view){
+        finish();
+    }
 }
