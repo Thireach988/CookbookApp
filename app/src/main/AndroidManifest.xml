@@ -20,6 +20,9 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".AboutUsActivity"/>
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".SavedRecipesActivity" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".RecipesActivity" />
         <activity android:name=".FoodCategoryActivity" />

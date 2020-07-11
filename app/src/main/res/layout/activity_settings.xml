@@ -20,14 +20,8 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:text="@string/accountName"
+            android:text="Edit Profile Picture"
             android:layout_gravity="center"
-            android:textColor="@color/blackInYellow"
-            android:layout_height="wrap_content" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_gravity="center"
-            android:text="@string/accountEmail"
             android:textColor="@color/blackInYellow"
             android:layout_height="wrap_content" />
 
@@ -44,69 +38,52 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="Peronal Information"
+            android:text="Account Settings"
             android:textStyle="bold"
             android:gravity="center"
             android:background="@color/colorTheme"
             android:textColor="@color/black"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Username: Sok Sabay"
-            android:layout_marginTop="8dp"/>
+            android:text="Change username"
+            android:layout_margin="8dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Email: soksabay@gmail.com"
+            android:layout_margin="8dp"
+            android:text="Change email"
             />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Phone: +85512345678"
-            android:textColor="@color/black"
-            android:layout_marginBottom="8dp" />
+            android:text="Change phone number"
+            android:layout_margin="8dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change password"
+            android:layout_margin="8dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change language"
+            android:layout_margin="8dp"
+            android:textColor="@color/black" />
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:text="Account Configuration"
-            android:textStyle="bold"
+            android:layout_height="match_parent"
             android:gravity="center"
-            android:layout_marginTop="30dp"
-            android:background="@color/colorTheme"
+            android:text="DELETE MY ACCOUNT"
             android:textColor="@color/black" />
-        <Switch
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Require login everytime"
-            android:checked="true" />
-        <Switch
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Enable Mobile Data Usage"
-            android:checked="true" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/account_settings"
-            android:onClick="SettingsClick"
-            android:text="Go to account settings"
-            android:textColor="#1697E0"
-            android:layout_marginBottom="8dp" />
 
     </LinearLayout>
 
-
-
-
-<!--    <Button-->
-<!--        android:id="@+id/button2"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_weight="1"-->
-<!--        android:onClick="onButtonClick"-->
-<!--        android:text="Show Categories" />-->
-
 </LinearLayout>
+

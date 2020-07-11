@@ -13,6 +13,18 @@ public class DashboardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
     }
+    public void AccountClick(View view){
+        Intent intent=new Intent(this, AccountActivity.class);
+        startActivity(intent);
+    }
+    public void SettingsClick(View view){
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+    }
+    public void SRecipesClick(View view){
+        Intent intent = new Intent(this, SavedRecipesActivity.class);
+        startActivity(intent);
+    }
     public void PostsClick(View view){
         Intent intent=new Intent(this, RecipesActivity.class);
         startActivity(intent);

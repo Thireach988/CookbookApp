@@ -16,7 +16,7 @@ public class StartupActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(StartupActivity.this, RecipesActivity.class);
+                Intent intent = new Intent(StartupActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

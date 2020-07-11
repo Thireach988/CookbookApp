@@ -43,6 +43,7 @@
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
+        android:onClick="AccountClick"
         android:text="@string/dashboard1" />
     <TextView
         android:layout_width="match_parent"
@@ -56,12 +57,14 @@
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
+        android:onClick="SRecipesClick"
         android:text="@string/dashboard3" />
     <TextView
         android:layout_width="match_parent"
         android:layout_margin="16dp"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
+        android:onClick="SettingsClick"
         android:text="@string/dashboard4" />
     <TextView
         android:layout_width="match_parent"

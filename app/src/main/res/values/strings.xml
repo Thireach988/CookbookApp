@@ -17,6 +17,12 @@
     <string name="sort1">Sort by date</string>
     <string name="sort2">Sort by ratings</string>
     <string name="sort3">Sort by categories</string>
-
+    <string name="AboutUsContent" translatable="false"> Cookbook is an app that lets you discover new food recipes to cook for yourself and your family.</string>
+    <string name="mission" translatable="false">Our Mission</string>
+    <string name="missionContent" translatable="false">To make available food recipes from different categories. </string>
+    <string name="visionContent" translatable="false"> To be the most convenient app for users to instantly learn new recipes. </string>
+    <string name="vision" translatable="false">Our Vision</string>
+    <string name="overview" translatable="false">Overview of Cookbook</string>
+    <string name="copyright" translatable="false">Copyright © Cookbook 2020</string>
 
 </resources>
