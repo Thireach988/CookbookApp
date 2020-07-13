@@ -44,7 +44,7 @@ public class RecipesActivity extends AppCompatActivity {
         // Show loading
         showloading(true);
         // Load data from server using Volley Library
-        String url = "http://10.0.2.2/myandroidapp/recipes.php";
+        String url = "https://my.api.mockaroo.com/recipes.json?key=3f4ef750";
 
         //Create a request
         StringRequest request = new StringRequest(url, new Response.Listener<String>() {

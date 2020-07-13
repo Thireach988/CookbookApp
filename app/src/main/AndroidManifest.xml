@@ -25,6 +25,7 @@
         <activity android:name=".SavedRecipesActivity" />
         <activity android:name=".DashboardActivity" />
         <activity android:name=".RecipesActivity" />
+        <activity android:name=".RecipesDetailActivity" />
         <activity android:name=".FoodCategoryActivity" />
     </application>
 
