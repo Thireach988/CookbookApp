@@ -55,7 +55,7 @@ public class RecipesActivity extends AppCompatActivity {
         StringRequest request = new StringRequest(url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
-                //convert json string to object using Gson
+                //convert json string to oject using Gson
                 Gson gson = new Gson();
                 Recipes[] recipe = gson.fromJson(response, Recipes[].class);
                 // Create and set an adapter
