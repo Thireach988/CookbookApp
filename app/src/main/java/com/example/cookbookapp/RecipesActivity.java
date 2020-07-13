@@ -49,7 +49,7 @@ public class RecipesActivity extends AppCompatActivity {
         // Show loading
         showloading(true);
         // Load data from server using Volley Library
-        String url = "https://my.api.mockaroo.com/recipes.json?key=3f4ef750";
+        String url = "https://my.api.mockaroo.com/recipe.json?key=3f4ef750";
 
         //Create a request
         StringRequest request = new StringRequest(url, new Response.Listener<String>() {
