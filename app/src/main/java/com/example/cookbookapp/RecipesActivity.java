@@ -1,5 +1,6 @@
 package com.example.cookbookapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -38,6 +39,10 @@ public class RecipesActivity extends AppCompatActivity {
         loadRecipes();
 
 
+    }
+    public void OnRecipesClick(View view){
+        Intent intent= new Intent(this, RecipesDetailActivity.class);
+        startActivity(intent);
     }
 
     private void loadRecipes() {
